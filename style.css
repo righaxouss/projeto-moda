@@ -135,7 +135,7 @@ background-color: white;
 
 .imgmain > center > img{
     width: 69%;
-   
+    min-width: 300px;
 display: block;
 width: 420px;
 height: 520px;
@@ -223,6 +223,6 @@ top: -1px;
     
      
 padding: 20px;
-width: 40px;
+width: 55px;
 
  }

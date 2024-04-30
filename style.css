@@ -120,6 +120,7 @@ width: 280px;
 }
 
 .preco{
+    font-weight: bold;
     padding: 7px;
 font-size: 13px;
     text-align: center;

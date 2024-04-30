@@ -24,6 +24,7 @@ body{
 header > center > img{
 min-width: 300px;
 border-bottom: solid 10px #7AAEDC;
+margin-bottom: 10px;
 }
 
  header{ 
@@ -35,55 +36,34 @@ border-bottom: solid 10px #7AAEDC;
     
  }
 
-header > nav{
-    text-align: right;
-padding: 15px;
 
+ .links{
+
+    margin-top: 20px;
+
+ }
+
+
+.links > a{
+    font-weight: bold;
+
+
+padding: 10px;
+font-size: 1.3em;
+color: #063a75;
+text-decoration:dashed;
 }
 
-
-
-.bordado{
-
-    margin-left: 10px;
-    text-align: right;
-    text-decoration: none;
-    margin-top: 20px;
-    color: #FFFF;
-    border-radius: 7px;
-    font-weight: bolder;
-    background-color: #0079FF;
-    margin-top: 20px;
-    padding: 10px;
+.links > a:hover{
+text-decoration: underline;
 
 }
-
-
- 
- .normal{
-    margin-left: 10px;
-    text-align: right;
-    text-decoration: none;
-    margin-top: 20px;
-    color: #0079FF;
-    border-radius: 7px;
-    font-weight: bolder;
-    margin-top: 20px;
-    padding: 10px;
-
-
-
- }   
-  
-
-
-
 
 
  .h1principal{
     text-align: center;
     font-weight: bolder;
-    margin-top: 50px;
+   
     color: #063a75;
     
  }
@@ -126,7 +106,7 @@ margin: 10px;
 
 .imgmain {
     border-top: solid 10px #7AAEDC;
-margin-top: 50px;
+margin-top: 40px;
 padding-top: 20px;
 background-color: white;
 
@@ -135,11 +115,11 @@ background-color: white;
 
 .imgmain > center > img{
     border-radius: 50%;
-    width: 69%;
-   min-width: 300px;
+    
+  
 display: block;
-width: 420px;
-height: 520px;
+width: 350px;
+height: 450px;
 }
 
 .preco{

@@ -134,8 +134,9 @@ background-color: white;
 
 
 .imgmain > center > img{
+    border-radius: 50%;
     width: 69%;
-    min-width: 300px;
+   min-width: 300px;
 display: block;
 width: 420px;
 height: 520px;

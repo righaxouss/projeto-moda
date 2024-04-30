@@ -136,7 +136,7 @@ background-color: white;
 
 .imgmain > center > img{
 display: block;
-width: 320px;
+width: 420px;
 height: 520px;
 }
 
@@ -170,7 +170,7 @@ color: white;
 
 .comprar > p{
     
-    background-color: #7AAEDC;
+    background-color: #4CAF50;
 padding: 15px;
 }
 

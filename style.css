@@ -36,6 +36,7 @@ margin-bottom: 10px;
 
 
 .headersticky{
+    display: block;
     text-align: center;
     background-color: white;
     text-align: right;
@@ -217,8 +218,7 @@ padding: 15px;
 
 aside{
     margin-top: 20px;
-background-color: white;
-padding: 20px;
+
 
 }
 

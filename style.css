@@ -22,6 +22,7 @@ body{
 
 
 header > center > img{
+    
 min-width: 300px;
 border-bottom: solid 10px #7AAEDC;
 margin-bottom: 10px;
@@ -35,29 +36,6 @@ margin-bottom: 10px;
     background-color: #FFFFFF;
     
  }
-
-
- .links{
-
-    margin-top: 20px;
-
- }
-
-
-.links > a{
-    font-weight: bold;
-
-
-padding: 10px;
-font-size: 1.em;
-color: #063a75;
-text-decoration:dashed;
-}
-
-.links > a:hover{
-text-decoration: underline;
-
-}
 
 
  .h1principal{
@@ -103,11 +81,10 @@ margin: 10px;
 
 
 
-
 .imgmain {
-    border-top: solid 10px #7AAEDC;
-margin-top: 40px;
-padding-top: 20px;
+font-size: 12px;
+margin-top: 20px;
+padding-top: 10px;
 background-color: white;
 
 }
@@ -117,7 +94,18 @@ background-color: white;
 display: block;
 width: 280px;
 
+
 }
+
+.imgredonda{
+    display: block;
+    width: 280px;
+border-radius: 50%;
+
+
+}
+
+
 
 .preco{
     font-weight: bold;

@@ -141,7 +141,7 @@ background-color: white;
 
 
 
-.imgmain > center > img{
+.imgmain > center > a > img{
    margin-top: 20px;
 display: block;
 width: 180px;

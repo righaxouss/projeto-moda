@@ -19,56 +19,70 @@ body{
 
 }
 
-header{ 
-    padding-top: 15px;
-    position: relative;
-    position: sticky;
-    bottom: -1px;
-    top: -1px;
-    border-radius: 0px 0px 5px 5px;
-   
-    padding: 10px;
-    background-color: #FFFFFF;
-    
- }
-
-nav{
-padding-top: 30px;
-  text-align: center;
 
 
-}
 
 
-nav > a{
-    padding: 10px;
-    font-weight: bold;
-    font-size: 1em;
-    color: #063a75;
-    text-decoration: none;
-
-}
 
 
-header >h1{
-    text-align: center;
-    font-weight: bolder;
-   
-    color: #063a75;
- }
-
-
-main{
-    text-align: center;
+ header{ 
+  
+    border-radius: 0px 0px 7px 7px;
     padding: 20px;
-    margin-top: 20px;
+    background-color: #E1E1E1 ;
     
-background-color: #FFFFFF;
+ }
 
 
-
+.title{
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 7px;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0);
 
 }
+
+.title > p{
+font-weight: bold;
+font-size: 20px;
+color: black;
+
+}
+
+
+
+
+.links > nav > a{ 
+
+text-decoration: underline;
+    color: #777373;
+
+}
+
+
+
+
+nav > a {
+    font-weight: bold;
+text-decoration: none;
+color:black;
+}
+
+
+
+
+
+
+.imgmain{
+margin-top: 20px;
+padding: 20px;
+    background-color: white;
+}
+
+
+
+
 
 .pnormal{
     text-align: center;
@@ -78,10 +92,11 @@ margin: 10px;
 }
 
 
-center > img{
-    
+center > a >img{
     display: block;
-width: 300px;
+    
+    width: 280px;
+
 
     
 }
@@ -94,7 +109,7 @@ font-size: 13px;
 }
 
 .preco > h6{
-margin-top: 15px;
+margin-top: 5px;
 font-size: 1em;
 color: #737373;
 }
@@ -104,6 +119,7 @@ color: #737373;
 }
 
 .comprar{
+   
     padding: 10px;
     text-decoration: none;
 color: white;
@@ -112,7 +128,8 @@ color: white;
 }
 
 .comprar > p{
-    
+    width: 200px;
+    border-radius: 7px;
     background-color: #4CAF50;
 padding: 15px;
 }

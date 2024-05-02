@@ -125,7 +125,7 @@ margin: 10px;
 
 .imgmain {
 
-    border: 1px solid rgb(230, 223, 223);
+    
     border-radius: 7px;
 font-size: 12px;
 margin-top: 20px;
@@ -133,9 +133,23 @@ padding-top: 10px;
 background-color: white;
 }
 
+.imgdestaque{
+    border: 1px solid rgb(230, 223, 223);
+    border-radius: 7px;
+font-size: 12px;
+margin-top: 50px;
+padding-top: 10px;
+background-color: white;
 
+}
 
-
+.imgdestaque > center > a > img{
+    margin-top: 20px;
+ display: block;
+ width: 250px;
+ 
+ 
+ }
 
 
 
@@ -160,6 +174,7 @@ border-radius: 50%;
 
 
 .preco{
+  
     font-weight: bold;
     padding: 7px;
 font-size: 13px;
@@ -171,13 +186,15 @@ font-size: 13px;
 }
 
 .preco > h6{
-margin-top: 15px;
+    
+margin-bottom: 10px;
 font-size: 1em;
 color: #737373;
 }
 .preco > p{
-
+   
     color: #a8a8a8;
+    margin-bottom: 10px;
 }
 
 .comprar{
